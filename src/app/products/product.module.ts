@@ -23,3 +23,10 @@ import { SharedModule } from '../shared/shared.module';
   ]
 })
 export class ProductModule { }
+
+
+// This is a feature module called ProductModule
+// ecapsulates all of the product features
+// imports the SharedModule to get access to StarComponent, ConvertToSpacesPipe,
+    // FormsModule, and CommonModule
+
